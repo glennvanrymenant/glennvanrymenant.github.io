@@ -15,7 +15,7 @@ minimal_mistakes_skin    : "contrast" # "default", "air", "aqua", "contrast", "d
 
 # Site Settings
 locale                   : "en-US"
-title                    : "Free "
+title                    : "Free on leap days"
 title_separator          : "-"
 subtitle                 : # site tagline that appears below site title in masthead
 name                     : "Glenn Van Rymenant"
