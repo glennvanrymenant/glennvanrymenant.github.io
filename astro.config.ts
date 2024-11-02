@@ -22,8 +22,7 @@ const whenExternalScripts = (items: (() => AstroIntegration) | (() => AstroInteg
   hasExternalScripts ? (Array.isArray(items) ? items.map((item) => item()) : [items()]) : [];
 
 export default defineConfig({
-  site: 'https://glennvanrymenant.github.io',
-  //base: 'my-repo',
+  site: 'https://freeonleapdays.blog',
   output: 'static',
 
   integrations: [
