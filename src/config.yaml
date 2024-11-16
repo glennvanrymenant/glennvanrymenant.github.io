@@ -1,5 +1,5 @@
 site:
-  name: AstroWind
+  name: FreeOnLeapDays
   site: 'https://astrowind.vercel.app'
   base: '/'
   trailingSlash: false
