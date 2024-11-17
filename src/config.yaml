@@ -1,6 +1,6 @@
 site:
   name: FreeOnLeapDays
-  site: 'https://astrowind.vercel.app'
+  site: 'https://freeonleapdays.blog'
   base: '/'
   trailingSlash: false
 
