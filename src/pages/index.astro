@@ -41,14 +41,11 @@ const metadata = merge(
         : {}),
     },
   },
-  { ...(post?.metadata ? { ...post.metadata, canonical: post.metadata?.canonical || url } : {}) }
-) as MetaData;
+  post.metadata
+);
 ---
-
 <Layout metadata={metadata}>
-  <SinglePost post={{ ...post, image: image }} url={url}>
-    {post.Content ? <post.Content /> : <Fragment set:html={post.content || ''} />}
-  </SinglePost>
-  <ToBlogLink />
+  <SinglePost post={post} />
   <RelatedPosts post={post} />
+  <ToBlogLink />
 </Layout>
